@@ -21,7 +21,7 @@ Asegúrese de tener instalados los siguientes paquetes mediante el uso de pip:
 django-admin startproject DjangoMVC (Este nombre puede ser el que usted desee
 ponerle al proyecto).
 
-###Crear un directorio para el proyecto desde la terminal del editor (Pycharm-
+### Crear un directorio para el proyecto desde la terminal del editor (Pycharm-
 Visual Studio Code)
 
 python manage.py startapp app (Este nombre puede ser el que usted desee
