@@ -13,10 +13,9 @@ Este proyecto implementa la autenticación de usuarios con las siguientes funcio
 
 Asegúrese de tener instalados los siguientes paquetes mediante el uso de pip:
 
-- **pip install Django==2.1.15
-- **pip install django-mssql-backend
-- **pip install django-pyodbc-azure-2019
-
+- pip install Django==2.1.15
+- pip install django-mssql-backend
+- pip install django-pyodbc-azure-2019
 
 - Crear proyecto Django desde cmd.
 django-admin startproject DjangoMVC (Este nombre puede ser el que usted desee
