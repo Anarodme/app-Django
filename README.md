@@ -1,16 +1,22 @@
-Este proyecto implementa autenticación de usuarios de forma que se pueda:
-a. Registrar un usuario nuevo.
-b. Autenticar el usuario, conocido como login
-c. Terminar sesión de usuario, conocido como logout
-d. Validar que la página de mantenimiento solo se presente si el usuario se autenticó ante
-el sistema. 
+# Proyecto de Autenticación de Usuarios
 
-Para correr el proyecto es necesario los siguiente:
+Este proyecto implementa la autenticación de usuarios con las siguientes funcionalidades:
 
-Instalaciones
+- **Registrar un nuevo usuario**
+- **Autenticar al usuario (login)**
+- **Cerrar sesión del usuario (logout)**
+- **Validar que la página de mantenimiento solo se presente si el usuario se autenticó en el sistema**
+
+## Requisitos para ejecutar el proyecto
+
+### Instalaciones necesarias
+
+Asegúrese de tener instalados los siguientes paquetes mediante el uso de pip:
+
 pip install Django==2.1.15
 pip install django-mssql-backend
 pip install django-pyodbc-azure-2019
+
 
 - Crear proyecto Django desde cmd.
 django-admin startproject DjangoMVC (Este nombre puede ser el que usted desee
@@ -25,10 +31,10 @@ ponerle al directorio).
 - Migrar las carpetas a SQL Server (django-mssql-backend)
 python .\manage.py migrate
 
-Ejecución del programa
+- Ejecución del programa
 python .\manage.py runserver
 
-Extra: Crear un superusuario para ingresar a la ventana de administración(admin)
+- Extra: Crear un superusuario para ingresar a la ventana de administración(admin)
 de Django
 python manage.py createsuperuser
 Opciones que debe completar:
